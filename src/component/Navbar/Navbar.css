@@ -1,0 +1,26 @@
+/* styles for Navbar.jsx */
+.navbar {
+  width: 100vw;
+  height: 60px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 30px;
+  cursor: pointer;
+}
